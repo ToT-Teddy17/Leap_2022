@@ -1,0 +1,13 @@
+.firstcircly{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    transition-duration: 500ms;
+    transition-property: transform;
+    transition-timing-function: linear;
+}
+.firstcircly :hover{
+    background: aqua;
+    transform: rotate(50deg);
+}
