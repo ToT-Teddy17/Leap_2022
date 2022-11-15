@@ -8,12 +8,69 @@ body{
 .container div{
    font: 1em sans-serif;
    font-size: 30px;
+
 }
 
+
 @media only screen and (max-width:1400px){
-    .text2.text3.text4.text5.text6{
+  
+    
+     .text{
         display: none;
     }
-    
+    .text-1{
+        display: block;
+    }
 
+}
+@media only screen and (max-width:1200px){
+    .text{
+        display: none;
+    }
+    .text-2{
+        display: block;
+    }
+    body{
+        background-color: royalblue;
+    }
+}
+@media only screen and (max-width:992px){
+    .text{
+        display: none;
+    }
+    .text-3{
+        display: block;
+    }
+    body{background-color: skyblue;}
+}
+@media only screen and (max-width:768px){
+    .text{
+        display: none;
+    }
+    .text-4{
+        display: block;
+    }
+    body{
+        background-color: teal;
+    }
+}
+@media only screen and (min-width:576px){
+    .text{
+        display: none;
+    }
+    .text-5{
+        display: block;
+    }
+    body{
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width:576px){
+    .text{
+        display: none;
+    }
+    .text-6{
+        display: block;
+    }
+    body{background-color: yellowgreen;}
 }
