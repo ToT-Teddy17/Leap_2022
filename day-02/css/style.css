@@ -1,0 +1,19 @@
+html{
+    background:#DAD0BE;
+  }
+  body{
+    font-size:30px;
+  }
+  #container{
+    margin:auto;
+    padding:3em 0 0;
+    text-align:center;
+  }
+  
+  input{
+      border: none;
+      
+
+  }
+
+

@@ -1,0 +1,56 @@
+body{
+    background-color: blue;
+}
+img{
+    max-width: 900px;
+    width: 100%;
+}
+.container div{
+    margin: 10px;
+    width: 300px;
+}
+.container{
+    display: flex;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+    img{
+        max-width: 600px;
+    }
+
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: blueviolet;
+    }
+    img{
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width:400px){
+    body{
+        background-color: cadetblue;
+    }
+    img{
+        max-width: 400px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:300px){
+body{
+    background-color: darkblue;
+}
+img{
+    max-width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+}
