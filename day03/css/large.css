@@ -1,0 +1,9 @@
+.text{
+    display: none;
+}
+.text-4{
+    display: block;
+}
+body{
+    background-color: teal;
+}

@@ -1,0 +1,9 @@
+.text{
+    display: none;
+}
+.text-5{
+    display: block;
+}
+body{
+    background-color: yellow;
+}

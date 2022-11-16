@@ -1,0 +1,9 @@
+.text{
+    display: none;
+}
+.text-2{
+    display: block;
+}
+body{
+    background-color: royalblue;
+}

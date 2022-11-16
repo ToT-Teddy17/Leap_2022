@@ -1,0 +1,7 @@
+.text{
+    display: none;
+}
+.text-3{
+    display: block;
+}
+body{background-color: skyblue;}
