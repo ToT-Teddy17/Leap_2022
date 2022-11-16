@@ -1,0 +1,15 @@
+.btn{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+.btn :hover{
+    background-color: aqua;
+    color: white;
+}
+.btn:hover {opacity: 1}
