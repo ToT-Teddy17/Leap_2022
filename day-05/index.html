@@ -13,103 +13,193 @@
         * {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+
+        .title {
+            display: flex;
+        }
+
+        .dugui img {
+            object-fit: scale-down;
+
+
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            transition-duration: 500ms;
+            transition-property: transform;
+            transition-timing-function: linear;
+        }
+
+        .dugui img:hover {
+
+            transform: rotate(360deg);
+            position: relative;
+            float: inline-end;
+
+        }
+
+        .logo {
+            transition-duration: 500ms;
+            transition-timing-function: linear;
+
+            border-radius: 50%;
+            position: relative;
+            backface-visibility: hidden;
+
+
+
+
+        }
+
+        .middle-a {
+            transition-duration: 200ms;
+            
+            opacity: 0;
+            
+  
+  
+
+
+        }
+
+        .logo:hover {
+            transform: rotate(360deg);
+            opacity: 0.3;
+        }
+
+        .container:hover .middle-a {
+            opacity: 5;
+        }
+
+        .container {
+            background-color: black;
+        }
+
+        .section-title {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        a {
+            color: azure;
+        }
+
+        a:hover {
+            color: #DC143C;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container text-center bg-secondary">
-        <div class="first-page">
-            <div class="header">
-                <div class="header-box row">
-                    <div class="title col-3">
-                        <div class="icon"></div>
-                        Name
-                    </div>
-                    <div class="col-6" style="background-color: red;">
-                        MENUS</div>
-                    <div class="col-3" style="background-color:  rgba(5, 255, 5, 0.685);">Drop Down</div>
-
+    <div class="container text-center ">
+        <div class="box">
+            <div class="tolgoi row">
+                <div class="title col-md-auto bg-dark text-white">
+                    <div class="dugui"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZooBdcaj1hiDiwmTdBMS_jUgGm4rmMu9GA&usqp=CAU"
+                            alt=""> </div>
+                    Name
+                </div>
+                <div class="header col  text-white" style="background-color:	#DC143C;">
+                    MENUS
+                </div>
+                <div class="headest col col-lg-2 bg-dark text-white">
+                    Drop Down
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="" alt="">
-                        <div class="col"><a href="#">About</a></div>
-                        <div class="col"><a href="#">YouTube</a></div>
-                        <div class="col"><a href="#">Facebook</a></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="section-title col ">
+                    <img class="logo"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_e7NVN-Y4EDIjARLvl0cP-ap0OrURjqqk7w&usqp=CAU"
+                        alt="">
+                    <div class="middle-a col"><a href="#">About</a></div>
+                    <div class="middle-a col"><a href="#">YouTube</a></div>
+                    <div class="middle-a col"><a href="#">Facebook</a></div>
 
-                    </div>
+                </div>
 
 
 
-                    <div class="col-8">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="column">
-                                    <div class="col">
-                                        <h5>Witch Doctor</h5>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Witch Doctor</h5>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Witch Doctor</h5>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Witch Doctor</h5>
-                                        <img src="" alt="">
-                                    </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="column">
+                                <div class="col">
+                                    <h5>Witch Doctor</h5>
+                                    <img src="" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Witch Doctor</h5>
+                                    <img src="" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Witch Doctor</h5>
+                                    <img src="" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Witch Doctor</h5>
+                                    <img src="" alt="">
                                 </div>
                             </div>
-                            <div class="col-8 bg-light">
-
-                                <div class="row">
-                                    <div class="col-6">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lassa_witch_doctors.jpg/440px-Lassa_witch_doctors.jpg"
-                                            style="width: 200px;" height="200px" alt="">
-                                    </div>
-                                    
-                                    <div class="text">"The Wizard of the North:" but her case was of so peculiar a
-                                        character as to baffle his skill to dissolve the spell, Application was next
-                                        made to a witch doctor named Murrell, residing at Hadleigh, Essex, who undertook
-                                        to effect a cure, giving a bottle of</div>
-
-                                </div>
-                            </div>
-
-
-
-
-
-
                         </div>
+                        <div class="col-8 bg-light">
 
-                        <div class="section-footer bg-light m-2">
                             <div class="row">
-                                <div class="col-6">
-                                    <div class="row">
-                                        <div class="col-3">Date</div>
-                                        <div class="col-3 bg-dark text-light">2022</div>
-                                        <div class="col-3 bg-dark text-light">/02</div>
-                                        <div class="col-3 bg-dark text-light">/19</div>
-                                    </div>
+                                <div class="col">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lassa_witch_doctors.jpg/440px-Lassa_witch_doctors.jpg"
+                                        style="width: 100%;" height="200px" alt="">
+                                </div>
 
+                                <div class="text">"The Wizard of the North:" but her case was of so peculiar a
+                                    character as to baffle his skill to dissolve the spell, Application was next
+                                    made to a witch doctor named Murrell, residing at Hadleigh, Essex, who undertook
+                                    to effect a cure, giving a bottle of</div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                    <div class="section-footer bg-light m-2">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-3">Date</div>
+                                    <div class="col-3 bg-dark text-light">2022</div>
+                                    <div class="col-3 bg-dark text-light">/02</div>
+                                    <div class="col-3 bg-dark text-light">/19</div>
                                 </div>
-                                <div class="col-6"></div>
-                                <div class="col-6"></div>
-                                <div class="col-6 ">
-                                    <button type="button" class="btn btn-primary">Primary</button>
-                                    <button type="button" class="btn btn-primary">Primary</button>
-                                </div>
+
+                            </div>
+                            <div class="col-6"></div>
+                            <div class="col-8"></div>
+
+                            <div class="col-4 text-end">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-primary">Primary</button>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class=" container footer bg-danger">
+
+        <div class="row">
+            <div class="col-8 ">morning class teddy</div>
+            <div class="col-4 text-end">2020/11/10</div>
+
         </div>
     </div>
     </div>
