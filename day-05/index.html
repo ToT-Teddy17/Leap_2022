@@ -12,29 +12,40 @@
     <style>
         * {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
         }
 
-        .title {
-            display: flex;
-        }
+
 
         .dugui img {
             object-fit: scale-down;
 
 
-            width: 20px;
+
             height: 20px;
             border-radius: 50%;
             transition-duration: 500ms;
-            transition-property: transform;
+
             transition-timing-function: linear;
+        }
+
+        img {
+            object-fit: scale-down;
+            transition-duration: 500ms;
+
+            transition-timing-function: linear;
+        }
+
+        img:hover {
+            transform: rotate(360deg);
+
         }
 
         .dugui img:hover {
 
             transform: rotate(360deg);
-            position: relative;
-            float: inline-end;
+
+
 
         }
 
@@ -53,11 +64,11 @@
 
         .middle-a {
             transition-duration: 200ms;
-            
+
             opacity: 0;
-            
-  
-  
+
+
+
 
 
         }
@@ -93,61 +104,68 @@
     <div class="container text-center ">
         <div class="box">
             <div class="tolgoi row">
-                <div class="title col-md-auto bg-dark text-white">
+                <div class="title col-lg-2 col-sm col-6 bg-dark text-white">
                     <div class="dugui"><img
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZooBdcaj1hiDiwmTdBMS_jUgGm4rmMu9GA&usqp=CAU"
                             alt=""> </div>
                     Name
                 </div>
-                <div class="header col  text-white" style="background-color:	#DC143C;">
+                <div class="header col-md col-sm d-sm-block d-none text-white" style="background-color:	#DC143C;">
                     MENUS
                 </div>
-                <div class="headest col col-lg-2 bg-dark text-white">
+                <div class="headest  col-lg-2  col-sm col-6 bg-dark text-white">
                     Drop Down
                 </div>
             </div>
+            <div class="col d-block d-sm-none bg-danger">MENUS</div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="section-title col ">
-                    <img class="logo"
+                <div class="section-title col  d-flex d-md-block ">
+                    <img class="col-4 col-md-4 col-lg  logo "
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_e7NVN-Y4EDIjARLvl0cP-ap0OrURjqqk7w&usqp=CAU"
                         alt="">
-                    <div class="middle-a col"><a href="#">About</a></div>
-                    <div class="middle-a col"><a href="#">YouTube</a></div>
-                    <div class="middle-a col"><a href="#">Facebook</a></div>
+                    <div class=" col  col-md-8  col-lg ">
+                        <div class="middle-a col"><a href="#">About</a></div>
+                        <div class="middle-a col"><a href="#">YouTube</a></div>
+                        <div class="middle-a col"><a href="#">Facebook</a></div>
 
+                    </div>
                 </div>
 
 
 
-                <div class="col-8">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="column">
-                                <div class="col">
-                                    <h5>Witch Doctor</h5>
-                                    <img src="" alt="">
+                <div class="col-12  col-md">
+                    <div class="row ">
+                        <div class="col col-md-6 text-light">
+                            <div class="column ">
+                                <div class="col-3">
+                                    <h5>Q</h5>
+                                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_paralyzing_cask.png"
+                                        alt="">
                                 </div>
-                                <div class="col">
-                                    <h5>Witch Doctor</h5>
-                                    <img src="" alt="">
+                                <div class="col-3">
+                                    <h5>W</h5>
+                                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_voodoo_restoration.png"
+                                        alt="">
                                 </div>
-                                <div class="col">
-                                    <h5>Witch Doctor</h5>
-                                    <img src="" alt="">
+                                <div class="col-3">
+                                    <h5>E</h5>
+                                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_maledict.png"
+                                        alt="">
                                 </div>
-                                <div class="col">
-                                    <h5>Witch Doctor</h5>
-                                    <img src="" alt="">
+                                <div class="col-3">
+                                    <h5>R</h5>
+                                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_death_ward.png"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8 bg-light">
+                        <div class="col  col-md-6  bg-light">
 
                             <div class="row">
-                                <div class="col">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lassa_witch_doctors.jpg/440px-Lassa_witch_doctors.jpg"
+                                <div class="col col-md-12">
+                                    <img src="data:image/jpeg;base64,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"
                                         style="width: 100%;" height="200px" alt="">
                                 </div>
 
@@ -197,8 +215,8 @@
     <div class=" container footer bg-danger">
 
         <div class="row">
-            <div class="col-8 ">morning class teddy</div>
-            <div class="col-4 text-end">2020/11/10</div>
+            <div class="col-12 col-sm-8 ">morning class teddy</div>
+            <div class="col-12 col-sm-4 ">2020/11/10</div>
 
         </div>
     </div>
