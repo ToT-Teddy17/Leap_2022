@@ -1,5 +1,5 @@
 //baby shark
-/*
+
 var a = 'Baby shark, doo-doo, doo-doo';
 var b = 'Baby shark';
 var c = 'Mommy shark, doo-doo, doo-doo';
@@ -32,7 +32,7 @@ console.log(myDecision);
 console.log(typeof myDecision);
 
 
-/* 
+
 *alert gargan
 *x2+y2-z3/240*175
 
