@@ -13,7 +13,7 @@ hello = "Helloo world grom java!!!" ;
 console.log(hello)
 
 
-hello = "alimshig yumnuud bgd bn"
+hello = "alim"
 console.log(hello)
 console.log(myNumber)
 
