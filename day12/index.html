@@ -8,12 +8,33 @@
 </head>
 <body>
     <script>
-        let mendchilgee = ('sn bnuu onoodor yaaraltai hoyr suragchiin dung oruulnu hervee tsagaasa omno oruulahgu  bol manai haalga ongorhoi shuu')
-        alert(mendchilgee);
-        let ner = prompt('suragchiin ner')
-        let dun = prompt( 'ene suragchiin dungiin oruulnu');
-        if(dun <=60){
-        console.log(ner ,"-", dun,"%");}
+        const studentPoint = Number(prompt('give me your student score'));
+       const studentName = prompt('give me your stutend name');
+       let studentResult='onoo dandaa 100 aas doosh bn';
+       if(studentPoint<60){
+           studentResult = 'very very bad'
+           
+       }
+       else if (studentPoint>=60 &&studentPoint<70){
+           studentResult= 'bad'
+
+       }
+       else if(studentPoint>=70 && studentPoint<80){
+           studentResult='normal'
+       }
+       else if (studentPoint>=80 && studentPoint<90){
+           studentResult='good'
+           
+       }
+       else if ( studentPoint>=90 && studentPoint<=100){
+           studentResult='very very good'
+       }
+       else{
+           console.log(none);
+       }
+       alert(studentName + ' - ' + studentPoint + "%"+' - ' + studentResult );
+       console.log(`${studentName} - ${studentPoint}% - ${studentResult}` );
+       
 
 
     </script>
