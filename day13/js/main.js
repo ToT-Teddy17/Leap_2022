@@ -86,38 +86,7 @@ console.log(Math.ceil(Math.random()* 6));
 
 
 //number dotroh random bod;logo 3 dah dasgal
-alert("sn bnuu garaas ogson hoyr toogiin hoorond bi random maygaar neg gargaj ireh bolno")
-let x =Number(prompt('ehnii toogoo oruulnu'));
-let y =Number( prompt('daraagiin toogoo oruulna'));
-
-if(x<y){
-    let max= (y)
-    let min=(x)
-    console.log('max-',max ,'min-',min);
-    alert('unshaj bn.........')
-    alert('odoo oruulsan hoyr toonii hoorondoh random number garah bolno....')
-    alert( Math.round(Math.random()*max));
-    console.log(Math.round(Math.random()*max));
-}
-else if (x>y){
-    let max1 = (x)
-    let min2 = (y)
-    console.log('max-',max1 ,'min-',min2);
-    alert('unshaj bn.........')
-    alert('odoo oruulsan hoyr toonii hoorondoh random number garah bolno....')
-    alert( Math.round(Math.random()*max1));
-    console.log(Math.round(Math.random()*max1));
-}
-
-else if(x==y){
-    alert("hoyr too hoyulaa tentsuu bga tul tsaasha uildel hiih bolomjgu")
-
-}
-else{
-    console.log(none)
-}
-
-
+c
 
 let first= prompt('give me number');
 let second= prompt('give me number');
