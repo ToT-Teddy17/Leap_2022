@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        alert('dasgal neg');
+    
+      let year =prompt ('year');
+      let yearstr = year.toString();
+      let month = prompt('sar');
+      let day = prompt('odor');
+      if (month < 10 && day < 10) {
+        alert(yearstr.concat("-0", month, "-0", day));
+      } else if (month < 10) {
+        alert(yearstr.concat("-0", month, "-", day));
+      } else if (day < 10) {
+        alert(yearstr.concat("-", month, "-0", day));
+      } else {
+        alert(yearstr.concat("-", month, "-", day));
+      }
+
+
+
+alert('dasgal hoyr');
+      let phoneNumber = prompt('give me phone number');
+      let phoneNstr = phoneNumber.toString();
+      let phoneN = phoneNstr.substring(0, 2);
+      if (phoneN == 83 || phoneN == 93 || phoneN == 97 || phoneN == 98 && phoneNumber.length==8) {
+        alert(" G-mobile");
+      } else if (phoneN == 80 || phoneN == 86 || phoneN == 88 || phoneN == 89) {
+        alert("Unitel");
+      } else if (phoneN == 99 || phoneN == 94 || phoneN == 95) {
+        alert("Mobicom");
+      } else if (phoneN == 91 || phoneN == 90 || phoneN == 96) {
+        alert("Skytel");
+      } else {
+        alert("error");
+      }
+    </script>
+  </body>
+</html>
