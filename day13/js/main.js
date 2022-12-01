@@ -84,7 +84,7 @@ console.log(Math.sqrt((y**2)+(z**2)));
 //random
 console.log(Math.ceil(Math.random()* 6));
 
-*/
+
 //number dotroh random bod;logo 3 dah dasgal
 alert("sn bnuu garaas ogson hoyr toogiin hoorond bi random maygaar neg gargaj ireh bolno")
 let x =Number(prompt('ehnii toogoo oruulnu'));
@@ -116,3 +116,72 @@ else if(x==y){
 else{
     console.log(none)
 }
+
+
+
+let first= prompt('give me number');
+let second= prompt('give me number');
+
+
+
+//loops buyu davtah
+//while n barag loop iin if yumuda
+let count = 1;
+console.log("loop started");
+while (count<=50){
+    console.log(count);
+    count= count+1;
+}
+//hervee bid nar count +1 gsn zuil bailgahgu bol
+//infinite(forever) Loop gdg zuil tulgarna
+
+console.log('loop ended')
+
+
+
+
+
+// togloomnii davtalt
+let start = alert("ta dahij ene togloomiig toglmoor bnu");
+let songolt= alert("'Yes' \, 'No' gsn haruiltaar haruilnu");
+let yes = "Yes"
+let no ="No"
+let answer= prompt();
+
+while(yes==answer){
+    alert("welcome to next round");
+    yes=prompt("one more game");
+    if(answer==yes){
+        alert("thanks");
+    }
+    else{
+        alert("gameover");
+    }
+    
+}
+while(no==answer){
+    alert("gameovoer");
+    no= no +1;
+}
+
+*/
+
+let x=Number(prompt("garaas neg too oruulnu ^-^"));
+
+let count= 1;
+let sum= 0;
+
+
+while(count<=x){
+    sum=sum + count;
+    console.log(count);
+    count =count + 1;
+    
+    
+    
+    
+    
+}
+
+console.log(sum);
+
