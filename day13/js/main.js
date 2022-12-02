@@ -133,7 +133,7 @@ while(no==answer){
     no= no +1;
 }
 
-*/
+
 
 let x=Number(prompt("garaas neg too oruulnu ^-^"));
 
@@ -154,3 +154,86 @@ while(count<=x){
 
 console.log(sum);
 
+alert("hello dear ,i will show you even numbers for 1>100");
+        let count = 2;
+        let sum= 0;
+
+        while(count<=100){
+            sum=sum + count;
+            console.log(count);
+            count=count+2;
+
+
+
+
+let num=prompt("give me number.i will show your number`s prime number" ,);
+var isPrimeN=true;
+var count=1;
+while(count<100 ){
+  if(num%count==0){
+    isPrimeN=false;
+    
+    break;
+  }
+  
+  
+
+  
+  count++;
+}
+
+ if(isPrimeN==false){
+    console.log(num+"is not prime number |_|");
+}
+
+else {
+
+  console.log(num+" is a prime number");
+}
+
+
+*/
+
+
+let num=prompt("give me number");
+let count=1;
+
+while(count==2){
+    if(num%num==0){
+        console.log("true");
+        count=count+1;
+    }
+
+   
+    else{
+        console.log("false");
+    }
+
+
+}
+
+
+
+
+
+
+
+/*
+
+let x=Number(prompt("garaas neg too oruulnu ^-^"));
+
+let count= 1;
+let sum= 0;
+
+
+while(count<=x){
+    sum=sum + count;
+    console.log(count);
+    count =count + 1;
+    
+    
+    
+    
+    
+}
+*/
