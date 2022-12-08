@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-      * {
-        margin-top: 100px;
-        text-align: center;
-        background-color: black;
-        color: red;
-        text-shadow: 5px 5px 10px blanchedalmond;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-    </style>
-  </head>
+        * {
+          margin-top: 100px;
+          text-align: center;
+          background-color: black;
+          color: red;
+          text-shadow: 5px 5px 10px blanchedalmond;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+      </style>
 
-  <body>
+</head>
+
+<body>
     <h1>Inspeactees harnuu</h1>
     <script>
-      let array = [
-        "Facebook",
-        "Google",
-        "Microsoft",
-        "Apple",
-        "IBM",
-        "Oracle",
-        "Amazon",
-      ];
-      array.sort();
-      console.log("sort:", array);
+        let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+array.sort();
+console.log('sort:', array);
 
-      const reversed = array.reverse();
-      console.log("reversed:", reversed);
 
-      const shift = array.shift();
-      console.log("remove first :", array);
+const reversed = array.reverse();
+console.log('reversed:', reversed);
 
-      array.splice((array.length - 1) / 2, 2);
-      console.log("remove middle:", array);
 
-      const pop = array.pop();
-      console.log("remove last", array);
+const shift = array.shift();
+console.log('remove first :', array);
 
-      array.splice(0, 10);
-      console.log("remove all:", array);
+
+array.splice((array.length -1)/ 2, 2);
+console.log('remove middle:', array);
+
+const pop = array.pop();
+console.log('remove last', array);
+
+array.splice(0, 10,);
+console.log('remove all:', array);
+
+
+
     </script>
-  </body>
+    
+</body>
 </html>
