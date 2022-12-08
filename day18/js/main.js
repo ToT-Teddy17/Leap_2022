@@ -301,27 +301,27 @@ console.log('Array methods');
 
 
 //js 2
-// let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
-// array.sort();
-// console.log('sort:', array);
+let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+array.sort();
+console.log('sort:', array);
 
 
-// const reversed = array.reverse();
-// console.log('reversed:', reversed);
+const reversed = array.reverse();
+console.log('reversed:', reversed);
 
 
-// const shift = array.shift();
-// console.log('remove first :', array);
+const shift = array.shift();
+console.log('remove first :', array);
 
 
-// array.splice((array.length -1)/ 2, 2);
-// console.log('remove middle:', array);
+array.splice((array.length -1)/ 2, 2);
+console.log('remove middle:', array);
 
-// const pop = array.pop();
-// console.log('remove last', array);
+const pop = array.pop();
+console.log('remove last', array);
 
-// array.splice(0, 10,);
-// console.log('remove all:', array);
+array.splice(0, 10,);
+console.log('remove all:', array);
 
 
 
@@ -378,12 +378,6 @@ console.log('Array methods');
 // console.log(remove_array_element(reversed, change),"<-ur dun");
 
 
-const array=prompt('give me number');
- const reversed=array.split("");
- const b=reversed.reverse();
- console.log(reversed.join(''));
- let c=b.reverse();
- console.log("garnaas oruulsan to chin ->",c.join(''));
 
 
 
