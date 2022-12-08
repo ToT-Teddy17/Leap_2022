@@ -1,8 +1,6 @@
 console.log('Goood Morning Teddy ^_^');
 console.log('Array methods');
 
-
-
 //shift
 
 // arr1=[1,2,3]=> shift(arr1)=>[2,3]
@@ -363,24 +361,29 @@ console.log('Array methods');
 
 
 
-function remove_array_element(array, n)
- {
-   const index = array.indexOf(n);
-   if (index > -1) {
-    array.splice(index, 1);
-}
-   return array;
- }
+// function remove_array_element(array, n)
+//  {
+//    const index = array.indexOf(n);
+//    if (index > -1) {
+//     array.splice(index, 1);
+// }
+//    return array;
+//  }
+// const array=prompt('give me number');
+// const reversed=array.split("");
+
+// const change=prompt('give me oruulsan numberaasa neg number');
+
+// console.log(reversed);
+// console.log(remove_array_element(reversed, change),"<-ur dun");
+
+
 const array=prompt('give me number');
-const reversed=array.split("");
-
-const change=prompt('give me oruulsan numberaasa neg number');
-
-console.log(reversed);
-console.log(remove_array_element(reversed, change),"<-ur dun");
-
-
-
+ const reversed=array.split("");
+ const b=reversed.reverse();
+ console.log(reversed.join(''));
+ let c=b.reverse();
+ console.log("garnaas oruulsan to chin ->",c.join(''));
 
 
 

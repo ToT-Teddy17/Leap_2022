@@ -17,18 +17,24 @@
       }
     </style>
   </head>
+
   <body>
     <h1>Inspeactees harnuu</h1>
     <script>
-      const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
-      shoppingCart.splice(0, 0, "Meat");
-      console.log(shoppingCart);
-      shoppingCart.splice(5, 0, "Sugar");
-      console.log(shoppingCart);
-      shoppingCart.splice(4, 1);
-      console.log(shoppingCart);
-      shoppingCart.splice(3, 1, "Green tea");
-      console.log(shoppingCart);
+      function remove_array_element(array, n) {
+        const index = array.indexOf(n);
+        if (index > -1) {
+          array.splice(index, 1);
+        }
+        return array;
+      }
+      const array = prompt("give me number");
+      const reversed = array.split("");
+
+      const change = prompt("give me oruulsan numberaasa neg number");
+
+      console.log(reversed);
+      console.log(remove_array_element(reversed, change), "<-ur dun");
     </script>
   </body>
 </html>

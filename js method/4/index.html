@@ -17,18 +17,16 @@
       }
     </style>
   </head>
+
   <body>
     <h1>Inspeactees harnuu</h1>
     <script>
-      const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
-      shoppingCart.splice(0, 0, "Meat");
-      console.log(shoppingCart);
-      shoppingCart.splice(5, 0, "Sugar");
-      console.log(shoppingCart);
-      shoppingCart.splice(4, 1);
-      console.log(shoppingCart);
-      shoppingCart.splice(3, 1, "Green tea");
-      console.log(shoppingCart);
+      const array = prompt("give me number");
+      const reversed = array.split("");
+      const b = reversed.reverse();
+      console.log(reversed.join(""));
+      let c = b.reverse();
+      console.log("garnaas oruulsan to chin ->", c.join(""));
     </script>
   </body>
 </html>

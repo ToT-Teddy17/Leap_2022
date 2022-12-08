@@ -17,18 +17,30 @@
       }
     </style>
   </head>
+
   <body>
     <h1>Inspeactees harnuu</h1>
     <script>
-      const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
-      shoppingCart.splice(0, 0, "Meat");
-      console.log(shoppingCart);
-      shoppingCart.splice(5, 0, "Sugar");
-      console.log(shoppingCart);
-      shoppingCart.splice(4, 1);
-      console.log(shoppingCart);
-      shoppingCart.splice(3, 1, "Green tea");
-      console.log(shoppingCart);
+      const names = [
+        "Бат",
+        "Дорж",
+        "Пунцаг",
+        "Готов",
+        "Баяраа",
+        "Болд",
+        "Навчаа",
+        "Гончигсумлай",
+        "Цэцгээ",
+        "Нэргүй",
+        "Бальбийгомбо",
+        "Баатар",
+      ];
+      console.log("ene bol ajil haah gd uldej avsan 10 hun->", names);
+
+      names.splice(8, 0, "egch1", "egch2");
+      const pop = names.pop();
+      const pop1 = names.pop();
+      console.log(names);
     </script>
   </body>
 </html>
