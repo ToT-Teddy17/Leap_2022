@@ -301,6 +301,7 @@ console.log('Array methods');
 
 
 //js 2
+
 let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
 array.sort();
 console.log('sort:', array);
