@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin-top: 100px;
+            text-align: center;
+            background-color: black;
+            color: red;
+            text-shadow: 5px 5px 10px blanchedalmond;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>look in inspect</h1>
+
+
+    <script>
+        function find(array, index){
+            for (let i = 0; i < array.length; i++) {
+                
+                if((2022-array[i].bd)<20){
+                    console.log('ene nasand hureegui->',array[i].name)
+                    let age =(2022-array[i].bd);
+                    console.log(array[i].name,age);
+                    
+                }
+                else {
+
+                    console.log('ene nasand hursen->',array[i].name)
+                    let age =(2022-array[i].bd);
+                    console.log(array[i].name,age);
+                    
+                }
+                if(array[i].single!=false){
+                    console.log('gants bie')
+                    console.log("")
+
+                }
+                else{
+                    console.log('married')
+                    console.log("")
+                }
+
+
+        
+                
+                    
+                
+                
+            }
+
+
+           
+
+        }
+
+       const students = [
+           {
+               name:'teddy',
+               bd:2005,
+               hobby:'Dance',
+               single:true,
+           }
+           ,
+           {
+            name:'khongroo',
+               bd:2004,
+               hobby:'sing',
+               single:true, 
+           }
+           ,
+           {
+            name:'naraa',
+               bd:1990,
+               hobby:'selling item',
+               single:false,
+           }
+       ]
+
+
+       find(students)
+
+       
+
+
+
+
+    </script>
+</body>
+
+</html>

@@ -156,50 +156,50 @@ console.log('Array methods');
 
 
 //object
-// console.log('lesson object');
-// let rabbit1={
-//     color:'white',
-//     rname:'chandag',
-//     gender:'male',
-//     age:'3',
-//     say:function() {
-//         console.log('snuu nzuuda snuu nzuuda');
+console.log('lesson object');
+let rabbit1={
+    color:'white',
+    rname:'chandag',
+    gender:'male',
+    age:'3',
+    say:function() {
+        console.log('snuu nzuuda snuu nzuuda');
         
-//     }
+    }
 
     
-// }
-// console.log(rabbit1);
-// console.log(rabbit1.color);
-// rabbit1.color='shavhai'
-// console.log(rabbit1);
-// rabbit1.say();
+}
+console.log(rabbit1);
+console.log(rabbit1.color);
+rabbit1.color='shavhai'
+console.log(rabbit1);
+rabbit1.say();
 
-// let rabbit2={
-//     color:'black',
-//     rname:'satan',
-//     gender:'male',
-//     age:'666',
-//     jump : function () {console.log('i can jump');
-//     console.log('');
-//     console.log('');
-//     console.log('');
-//     console.log('');
-//     console.log('');
-//     console.log('');
-//     console.log('');
-//     console.log('oooo arai ikh usreed ene d irchle');
-
-
+let rabbit2={
+    color:'black',
+    rname:'satan',
+    gender:'male',
+    age:'666',
+    jump : function () {console.log('i can jump');
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('oooo arai ikh usreed ene d irchle');
 
 
-//          }
+
+
+         }
     
-// }
-// console.log(rabbit2);
-// let rabbits=[rabbit1, rabbit2];
-// console.log(rabbits);
-// rabbit2.jump()
+}
+console.log(rabbit2);
+let rabbits=[rabbit1, rabbit2];
+console.log(rabbits);
+rabbit2.jump()
 
 
 
@@ -302,27 +302,27 @@ console.log('Array methods');
 
 //js 2
 
-let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
-array.sort();
-console.log('sort:', array);
+// let array = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+// array.sort();
+// console.log('sort:', array);
 
 
-const reversed = array.reverse();
-console.log('reversed:', reversed);
+// const reversed = array.reverse();
+// console.log('reversed:', reversed);
 
 
-const shift = array.shift();
-console.log('remove first :', array);
+// const shift = array.shift();
+// console.log('remove first :', array);
 
 
-array.splice((array.length -1)/ 2, 2);
-console.log('remove middle:', array);
+// array.splice((array.length -1)/ 2, 2);
+// console.log('remove middle:', array);
 
-const pop = array.pop();
-console.log('remove last', array);
+// const pop = array.pop();
+// console.log('remove last', array);
 
-array.splice(0, 10,);
-console.log('remove all:', array);
+// array.splice(0, 10,);
+// console.log('remove all:', array);
 
 
 
