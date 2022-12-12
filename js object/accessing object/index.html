@@ -24,9 +24,68 @@
 
 
     <script>
-        
 
-       
+        let students = [
+            {
+                name: 'Сэд-Эрдэнэ',
+                age: 19,
+                gender: "male"
+            },
+            {
+                name: 'Индра',
+                age: 19,
+                gender: "female"
+            },
+            {
+                name: 'Хатнаа ',
+                age: 21,
+                gender: "male"
+            },
+            {
+                name: 'Тэмүүлэн',
+                age: 23,
+                gender: "male"
+            },
+            {
+                name: 'Намуун',
+                age: 23,
+                gender: "female"
+            },
+        ]
+
+
+        let getAverage = arr => {
+            let reducer = (total, currentValue) => total + currentValue;
+            let sum = arr.reduce(reducer)
+            return sum / arr.length;
+        }
+
+        let ages = students.map(students => students.age);
+
+        console.log(getAverage(ages));
+
+
+        var item = students.find(item => item.id === 2);
+
+function too(arr,index) {
+    for (let i = 0; i < array.length; i++) {
+        if(students[name]=male){
+            name.length=name.length+name.length
+        }
+        console.log(name)
+        
+    }
+    
+}
+console.log(students.name);
+
+
+
+
+
+
+
+
 
 
 
