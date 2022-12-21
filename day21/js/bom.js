@@ -1,49 +1,57 @@
-console.log('bom js');
+
+
+
+
+
+
+
+
+
+
+
+
+console.log('bom js')
 console.log(window);
-// // window.alert('pass away->die   pass out ->faint'); -> alert yumuuda
-// window.open('https://google.com','hii');
+// window.alert('Hello')
+
+// window.open('https://google.com', 'Hello');
+
+// let result = window.confirm('Do you wanna to Quit?');
+// console.log(result);
 
 
-// window.confirm('hii'); // alert tai shiljet yumuda
-
-// let result = window.confirm(' do u wnat to quit?');
-// let mas=result?'are u sure gor okay ?':
-// 'are not';
-// alert(mas);
+let alertButton = document.getElementById('alertButton');
+let cancelButton = document.getElementById('cancelButton');
+let timeoutID;
 
 
-    
-// let timeoutID;
-// function showAlert() {
-// timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!');
-// }
-// function clearAlert() {
-// clearTimeout(timeoutID);
-// }
+alertButton.addEventListener('click', () => {
+    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!');
+});
+
+cancelButton.addEventListener('click', () => {
+    console.log(timeoutID);
+    window.clearTimeout(timeoutID);
+})
+console.log(timeoutID);
+
+setTimeout(()=> {
+    console.log('Time out is running');
+}, 5000)
 
 let counter = 0;
-function startInterval() {
-    let now=new Date();
-    let myTimer=document.getElementById('myTimer');
-    myTimer.innerHTML=now;
-    console.log(counter);
-    counter++
-    
-}
+
 let startMyTimer = document.getElementById('startTimer');
 startMyTimer.addEventListener('click', runTimerInterval)
 
-
-function runTimerInterval() {
-    window.setInterval(startInterval,1000);
-    
+function runTimerInterval () {
+    window.setInterval(startInterval, 1000);
 }
-function startinterval() {
-    let now= new Date();
-    let myTimer=document.getElementById('myTimer');
-    myTimer.innerHTML=now.getSeconds();
 
-    
+function startInterval(){
+    let now = new Date();
+    let myTimer = document.getElementById('myTimer');
+    myTimer.innerHTML = now.getSeconds();
 }
 
 
