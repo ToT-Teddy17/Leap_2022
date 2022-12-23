@@ -1,0 +1,10 @@
+body{
+    background-image: url(http://getwallpapers.com/wallpaper/full/8/7/8/902608-best-fullmetal-alchemist-wallpaper-1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+
+    backdrop-filter:blur( 5px);
+}
